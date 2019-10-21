@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+}
+/* Facilite le placement des objets sur le site  */
+body {
+
+    margin: 0;
+    background: rgba(100, 100, 100,0.1);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+section
+{
+
+margin: 75px 0;
+}
+.baniere
+{
+position:relative;
+height:630px;
+width: 100%;
+background: no-repeat center center / cover url("img/banière.jpg");
+
+
+}
+h1, h2{
+
+    text-align: center;
+}
+
+li{
+
+    list-style-type: none;
+
+}
+
+
+/* Header */
+.title 
+{
+color: rgb(100, 100, 100) ;
+background-color: white;
+text-align:center;
+height: 50px;
+font-size: 25px;
+padding-top:10px;
+font-weight: bold;
+}
+
+.header-nav {
+    background: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0.4)) ;
+    border-bottom-left-radius: 500px 125px;
+    border-bottom-right-radius: 500px 125px;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    height: 50px;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    z-index:100;
+
+}
+
+.header-nav a
+{
+    position: relative;
+    top: 8px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    padding: 0 35px;
+    margin: 30px 0;
+    transition: color .5s;
+
+}
+.header-nav a:hover
+{
+color: #000000
+
+}
+
+/* Barre de droite */
+
+.right_side
+{
+background: linear-gradient(to bottom left,  rgba(100, 100, 100, 0.25),  rgba(100, 100, 100, 0));
+
+float: right;
+width:15%;
+padding : 10px;
+height: 100%;
+position:sticky;
+right: 0;
+top:50px;
+}
+.right_side a
+
+{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    transition: color .5s;
+
+}
+.right_side a:hover
+{
+color: #000000
+
+}
+
+/* Main */
+
+main
+
+{
+flex-flow: row wrap;
+display: inline-block;
+width:65%;
+margin: 2%;
+
+}
+/* Elements cliquable des loisirs */
+
+main article img
+{
+    width: 100%;
+    height: 300px;
+}
+
+main article.card
+
+{
+width: 300px;
+position: relative;
+display:inline-block;
+text-align: justify;
+border-bottom-left-radius:7%;
+border-bottom-right-radius:7%;
+overflow-wrap: break-word;
+justify-content: space-evenly;
+margin:10px;
+box-shadow: 0 4px 30px  rgba(100, 100, 100, 0.20);
+transition: box-shadow 0.5s; 
+}
+
+.card:hover
+
+{
+
+box-shadow: 0 4px 50px rgb(100,100,100);
+
+
+}
+
+.article_date
+{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(100, 100, 100,0.5);
+    font-weight: bold;
+    color:white;
+}
+
+.article_body
+{
+
+    text-align:center;
+
+}
+a article
+{ 
+text-decoration: none;
+color: rgb(0, 0, 0);
+
+
+}
+
+.align_l
+{
+ 
+    float:left;
+}
+
+.align_r
+{
+
+    float:right;
+   
+}
+
+/* Partie de la formation avec la timeline */
+#form.formation
+{
+display:flex;
+flex-direction: column;
+
+
+
+}
+.timeline
+
+{
+    position:absolute;
+background: black;
+width:4px;
+height: 900px;
+display:block;
+margin-right: 10px;
+
+}
+
+.timeline span
+{
+
+position:relative;
+color:white;
+background: black;
+font-weight: bold;
+border-radius:5px;
+
+}
+
+.formation
+{
+height:200px;
+margin:30px;
+margin-left: 40px;
+padding:1px;
+display:block;
+background: rgba(100, 100, 100, 0.4);
+color:white;
+text-align: center;
+overflow-wrap: break-word;
+right: 50px;
+border-radius:15px;
+
+}
+
+/* Barre de competence */
+
+.comp
+{
+display:flex;
+flex-direction:column;
+margin-bottom:10px;
+}
+
+.comp p
+{
+    text-align: center;
+flex: 0 0 15%;
+margin:0;
+}
+
+.conteneur_barre
+{
+flex:0 0 30%;
+border-radius: 5px;
+background-color:rgba(100, 100, 100, 0.4);
+border-bottom: ridge grey;
+height: 20px;
+top:50%;
+}
+
+.barre 
+{
+display:block;
+height: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-color: rgba(43, 30, 158, 0.973);
+
+}
+.b100
+{
+width: 100%;
+border-radius: 5px;
+
+}
+
+.b90
+{
+width: 90%;
+border-radius: 5px;
+
+}
+
+.b80
+{
+width: 80%;
+border-radius: 5px;
+
+}
+
+.b70
+{
+width: 70%;
+border-radius: 5px;
+
+}
+
+.b60
+{
+width: 60%;
+border-radius: 5px;
+
+}
+
+.b50
+{
+width: 50%;
+border-radius: 5px;
+
+}
+
+/* Footer */
+
+footer{
+height: 200px;
+position: relative;
+flex-flow: row wrap;
+background: linear-gradient(to top,  rgba(100, 100, 100, 0.75),  rgba(100, 100, 100, 0));
+
+
+right: 0;
+left: 0;
+bottom: 0;
+clear:both;
+}
+
+
+.footer_left
+{
+float:left;
+position:relative;
+height: 120px;
+left: 10%;
+
+}
+
+.footer_right
+{
+float:right;
+position:relative;
+right:0;
+top:0;
+right: 40%;
+}
+
+footer section
+{
+
+    margin: 0;
+}
+.map
+{
+    float:right;
+    top:10%;
+    left:10%;
+}
+

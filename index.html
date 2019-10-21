@@ -1,42 +1,302 @@
 <!DOCTYPE html>
-<html lang=fr> <!-- langue du document-->
-    <head>
-        <title>Accueil</title>
-        <meta charset="utf-8"> <!--Encodage pour caractères speciaux-->
-        <link href="style.css" rel="stylesheet"> <!-- application du css-->
-          <!--Titre de la page-->
-    </head>
-
-    <body> <!--Corps de la page-->
-       <header> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> <!-- Encodage pour les caractères spéciaux-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css"> <!-- Liens vers la page de style CSS-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> <!-- Liens vers une police d'ecriture-->
+    <title>RICHARD Quentin</title> <!-- Titre dans l'onglet -->
+</head>
+<body>
+        <div class="title">Curiculum Vitae Quentin RICHARD</div>
         
         <nav class="header-nav"> <!--Barre de navigation-->
-                <table>
-                    <tr>
-                        <td><a href="index.html" title="Accueil" id="page_actu">Accueil</td></li>    <!-- Liens interne vers une autre page-->
-                        <td><a href="exp.html" title="exp">Expérience</td></li>
-                        <td><a href="form.html" title="form">Formation</td></li>
-                        <td><a href="contact.html" title="contact">Me contacter<td></li>
-                    </tr>
-                    </table>
-        </nav>
-    </header>  
+                                
+            <a href="#accueil" title="Accueil">Accueil</a>    <!-- Liens interne vers une autre page-->
+            <a href="#form" title="Mes formations" >Formation</a>
+            <a href="#exp" title="Mon expérience">Expérience</a>            
+            <a href="#loisir" title="Mes loisirs">Loisirs</a>            
+            <a href="#contact" title="Me contacter">Me contacter</a>
         
-    <section class="main">
-        <h1>Qui suis-je ?</h1> <!--Titre d'un paragraphe-->
-        <p> <!--Paragraphe-->
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt labore voluptates quod sapiente quidem nam nobis dolorum sit accusamus. Deleniti consectetur adipisci similique dolores ducimus veritatis vero, expedita commodi.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consequuntur expedita, quibusdam, quidem fugiat eius obcaecati ut dignissimos suscipit cupiditate necessitatibus! Praesentium vero, odit explicabo alias sapiente cum! Cumque, deserunt?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit dicta ut sequi fugiat, iure soluta animi modi laboriosam beatae vero provident tempora, saepe quam reprehenderit doloribus recusandae ullam officiis magni.
+        </nav>
+        <header> 
+                <div class="baniere"></div>
+        </header>  
 
-        </p>
-        <h1>L'histoire</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cum, esse at, beatae deleniti laborum consectetur accusamus doloribus hic alias, quidem voluptate iure velit architecto quibusdam recusandae cumque autem dolorum!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quisquam corrupti recusandae saepe fugit, fugiat assumenda, aliquam adipisci dolorem quos omnis pariatur nam suscipit eius, accusamus beatae reprehenderit corporis perferendis!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt similique voluptatibus facilis voluptas perspiciatis enim. Eaque temporibus voluptatem, illum eum ab libero architecto voluptate sit dolorem ipsum facere hic incidunt?
+
+<div class="right_side"> <!-- Barre sur la droite-->
+<nav>
+    <h3>Documentation</h3>
+    <ul>
+        <li>Formation</li>
+            
+                <li><a href="https://www.education.gouv.fr/annuaire/88-vosges/bruyeres/lycee/lycee-jean-lurcat.html" target="_blank">Lycée</a></li>
+                <li><a href="http://fst.univ-lorraine.fr/" target="_blank">Faculté</a></li>
+                
+        
+<li><hr></li>
+        <li>Expérience</li>
+            
+                <li><a href="https://www.societe.com/societe/monsieur-gerald-galley-398693820.html" target="_blank">Galley</a></li>
+                <li><a href="https://www.societe.com/societe/lucart-sas-508026119.html" target="_blank">Lucart SAS</a></li>
+                <li><a href="https://www.societe.com/societe/toiltech-509103743.html" target="_blank">Toiltech</a></li>
+            
+            <li><hr></li>
+                    <li>A propos de moi</li>
+            
+                <li><a href="CV.pdf" target="_blank">CV</a></li>
+                <li><a href="LDM.pdf" target="_blank">Lettre de motivation</a></li>
+            
+    </ul>
+</nav>        
+</div>
+
+<main>
+    <!-- Partie principale de la page-->
+
+    <section>
+        <article id=accueil> <!-- Ancrage pour liens interne-->
+            <h2>Accueil</h2>
+
+            Bonjour et bienvenu sur mon site internet. Ce site est composé de plusieurs parties qui présenteront mon parcours scolaire ainsi que mon parcours professionnel. Mais pour commencer, une petite présentation de moi.
+
+
+
+            <h2>Qui suis-je ?</h2> <!--Titre d'un paragraphe-->
     
-        </p>
+            <p> <!--Paragraphe-->
+    
+                Je m'appelle Quentin RICHARD, je suis né le 25 avril 1995, j'ai donc 24 ans. Je viens du département des Vosges et je suis venu à Nancy pour mes études.
+                J'ai commencé mes études supérieures dans le domaine de la physique-chimie, puis plus précisément, dans le domaine physique de la mécanique énergétique.
+                Après plusieurs années dans ce domaine où je n'ai pas réussi à me projeter dans un métier, j'ai pris la décision de me réorienter dans l'informatique car depuis le collège c'est un domaine qui me passionne.
+                En effet, je me suis d'abord intéressé aux tableurs, puis j'ai voulu aller plus loin et de manière autodidacte, j'ai appris quelques langages de programmation comme l'HTML et le CSS qui m'ont permis de développer ce site web. 
+                Pendant mes études en science, j'ai également pu aborder les bases de programmation en C et programmer de petits scripts sur MatLab pour résoudre des problèmes de transferts thermiques avec un peu de modélisation.
+    
+            </p>
+        </article>
+
+        <article>
+                <h2>Mes motivations</h2>
+    
+            <p>
+    
+                Je suis aujourd'hui décidé à approfondir les connaissances que j'ai pu acquérir par moi-même grâce à un encadrement spécialisé dans le domaine. 
+                Étant de nature curieux, j'ai aussi à coeur d'apprendre de nouvelles choses et ces raisons m'ont poussé à postuler dans cette formation. 
+                A la suite de cette formation, j'ai pour projet de postuler dans une formation en alternance afin d'allier apprentissage théorique et application de cet apprentissage dans le milieu professionnel.
+                A terme, j'ai pour projet de devenir développeur, en effet après m'être informé, j'ai appris que c'est un métier qui se travaille en équipe, chaque membre d'une équipe amène sa pierre à l'édifice d'un projet commun. 
+                Ce genre de perspective de travail m'attire beaucoup car j'aime le travail en équipe, avoir l'avis d'autrui et donner le mien. 
+        
+            </p>
+        </article>
+
     </section>
-    </p>
-</body>
+    <hr>
+
+        <section id="form">
+            <h2>Formation</h2>
+
+            <div class="timeline"> <!-- Timeline de la formation-->
+                <span style="top:0">2010</span>
+                <span style="top:195px">2013</span>
+                <span style="top:400px">2016</span>
+                <span style="top:610px">2018</span>
+                <span style="top:800px">2019</span>
+
+            </div>
+            <div class="formation"> <!-- Rectangle contenant des descriptions-->
+                <h2>Lycée Jean Lurçat, Bruyères</h2>
+                <p>Baccalauréat Scientifique, série S, spécialité Physique-Chimie
+                </p>
+
+            </div>
+            <div class="formation">
+                    <h2>Faculté de sciences et technologies, Nancy</h2>
+                    <p>Licence de physique-chimie
+                    </p>
+                    <p>Première et deuxième années, après avoir obtenu mon bac avec une note de 19/20 en Physique-Chimie, je me suis logiquement engagé dans cette branche qui me plaisait. </p>
+                    <p>J'ai obtenu la note de 16/20 à l'examen du C2i</p>
+            </div>
+            <div class="formation">
+                        <h2>Faculté de sciences et technologies, Nancy</h2>
+                        <p>Licence de mécanique énergétique
+                        </p>
+                        <p>Deuxième année, je me suis rendu compte que la filiaire chimie ne me plaisait pas, je me suis donc dirigé vers une filiaire plus centrée sur la physique et plus précisement la mécanique.
+                        </p>
+                        <p>J'ai pu y apprendre les bases de la programmation en C.</p>
+        
+            </div>
+            <div class="formation">
+                    <h2>Faculté de sciences et technologies, Nancy</h2>
+                    <p>Licence de mécanique des fluides et énergie.
+                    </p>
+                    <p>Suite de mes études dans la filiaire mécanique. N'arrivant pas à me projeter dans un projet professionnel dans le domaine, j'ai décidé de me rediriger vers l'informatique.</p>
+                    <p>J'ai pu y manipuler des logiciels de programmation tels que MatLab ou Emacs.</p>
+                </div>
+        </section>
+
+<hr>
+
+        <section id="exp">
+            <h2>Expériences, compétences et outils</h2>
+        
+        <p> Cette partie du site est consacrée à la description de mes expériences professionnelles.</p>
+<h3>Mes expériences professionnelles</h3>
+        <ul>
+                <li><hr></li>
+                    <li> <!-- Liste de mes exp pro-->
+                        <div class=align_l><strong>Galley Gerald</strong></div> <div class="align_r"><strong>Landreville</strong></div><br>
+                        <em>Travail viticole</em><br>
+                        Mois de Juin 2019 et une semaine au mois de Septembre 2019
+                
+                    </li>
+                <li><hr>  </li>  
+                    <li>
+                        <div class="align_l"><strong>Lucart SAS</strong></div> <div class="align_r"><strong>Laval sur vologne</strong></div><br>
+                            <em>Opérateur machine</em><br>
+                            Mois de Juin, Juillet, Août de 2013 à 2019
+                    
+                    </li>
+                <li> <hr></li>
+                    <li>
+                            <div class="align_l"><strong>Toiltech</strong></div> <div class="align_r"><strong>La Chapelle devant Bruyères</strong></div><br>
+                            <em>Informatique technique et comptabilité</em><br>
+                            Une semaine en Mai 2010
+                        
+                    </li>
+                <li><hr></li>
+                
+                </ul>
+        
+        <h3> Outils et compétences</h3>
+
+        <p>Au travers de mes différentes expériences, formations, et de manière autodidacte, j'ai pu acquérir certaines compétences et utiliser certains outils.</p>
+                <h4>Outils</h4>
+        <div class="comp"> <!-- Competence + barre -->
+            
+                <p>Tableur</p>
+                <div class="conteneur_barre"> 
+                    <span class="barre b90"></span>
+                </div>
+        </div>
+
+
+        <div class="comp">        
+                    <p>Matlab</p>
+                    <div class="conteneur_barre">
+                        <span class="barre b60"></span>
+                    </div>                  
+        </div>
+
+           
+        <div class="comp">              
+                    <p>Photoshop</p>
+                    <div class="conteneur_barre">
+                        <span class="barre b60"></span>
+                    </div>
+        </div>
+<h4>Compétences</h4>
+<div class="comp">
+            
+        <p>Anglais</p>
+        <div class="conteneur_barre">
+            <span class="barre b70"></span>
+        </div>
+</div>
+
+
+<div class="comp">        
+            <p>HTML & CSS</p>
+            <div class="conteneur_barre">
+                <span class="barre b60"></span>
+            </div>                  
+</div>
+
+   
+<div class="comp">              
+            <p>Mathématiques</p>
+            <div class="conteneur_barre">
+                <span class="barre b80"></span>
+            </div>
+</div>
+<div class="comp">              
+        <p>Travail en équipe</p>
+        <div class="conteneur_barre">
+            <span class="barre b90"></span>
+        </div>
+</div>
+    </section>
+<hr>
+        <section id="loisir">
+            
+            <h2>Mes loisirs et passions</h2>
+
+            <p>Cliquez sur les icônes pour plus de détails.</p>
+            <a href="sport.html#sport" target="_blank" ><article class="card"> <!-- Element cliquable avec image + titre liens vers une autre page -->
+                    <img src="img/sport.jpg" alt="image de sports">
+                    
+                    <div class="article_body">
+                        <h2 class="article_titre">Sports</h2>
+                    
+                    </div>
+            </article></a>
+    
+            <a href="jeu.html#jeu" target="_blank"><article class="card">
+                    <img src="img/jeux_video.jpg" alt="image de manettes de consoles">
+                    
+                    <div class="article_body">
+                        <h2 class="article_titre">Jeux</h2>
+                       
+                    </div>
+            </article></a>
+    
+            <a href="livre.html#livres" target="_blank"><article class="card">
+                    <img src="img/livre-au-cinema.jpg" alt="image de livre et de bande vidéo">
+                    
+                    <div class="article_body">
+                        <h2 class="article_titre">Livres, films et séries</h2>
+                        
+                    </div>
+            </article></a>
+
+            <a href="divers.html#divers" target="_blank" ><article class="card">
+                    <img src="img/divers.gif" alt="image d'une guitare et d'un PC">
+                    
+                    <div class="article_body">
+                        <h2 class="article_titre">Divers</h2>
+                    
+                    </div>
+            </article></a>
+
+
+        </section>
+        
+</main>
+
+<footer id="contact"> <!-- Bas de page avec mes info pour me contacter-->
+
+<section class="footer_left">    
+    <h2>Me contacter</h2>
+
+    Par mail <a href="mailto:richard.quentin88@gmail.com">richard.quentin88@gmail.com</a> <br><br>
+
+    Par téléphone <a href="tel:+33685184506">06.85.18.45.06</a>
+
+</section>
+
+<section class="footer_right">
+        <h4>Où me trouver ?</h4>
+
+            <p> 
+                1 rue de Laxou<br>
+                54000 Nancy<br>
+                France
+            </p>
+
+</section>
+<!-- Carte google maps-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.8355200494434!2d6.165932020577021!3d48.6858488803988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a29d5a397687%3A0x9292cc46a5ddd1!2s1%20Rue%20de%20Laxou%2C%2054000%20Nancy!5e0!3m2!1sfr!2sfr!4v1571328856879!5m2!1sfr!2sfr" width="300" height="200" style="border:0;" allowfullscreen="" class="map"></iframe>
+
+</footer>
+    </body>
 </html>
